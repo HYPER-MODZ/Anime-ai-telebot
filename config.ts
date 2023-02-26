@@ -1,4 +1,4 @@
-﻿const config: Config = {
+const config: Config = {
     botToken: '5778803513:AAGqTkyF--atxLBdKisq4xx6YXgFUvSiUW8',
     keepFiles: {
         compared: false,
