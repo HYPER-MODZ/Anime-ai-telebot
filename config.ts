@@ -17,12 +17,24 @@ const config: Config = {
         media: '@Anime\\qq\\Ai\\_bot',
        received: 'Photo has been received please wait 🍀',
     },
-    proxyUrl: 'socks5://HIA:HIA@58.49.230.248:30001',
-    sendMedia: {
-        compared: true,
-        single: true,
-        video: true,
     },
+
+    sendMedia: {
+
+        compared: true,
+
+        single: true, // much slower and works only with mode=AI_PAINTING_ANIME
+
+        video: true, // much slower and works only with mode=AI_PAINTING_ANIME
+
+    },
+
+    parallelRequests: 10,
+
+    // Uncomment the line below and set your proxy if you need it.
+
+    // proxyUrl: 'socks5://user:password@11.22.33.44:1234',
+
 };
 
 export default config;
