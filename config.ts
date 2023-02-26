@@ -1,5 +1,5 @@
 const config: Config = {
-    mode: 'AI_PAINTING_ANIME', // 'DIFFERENT_DIMENSION_ME' | 'AI_PAINTING_ANIME'
+    mode: 'DIFFERENT_DIMENSION_ME', // 'DIFFERENT_DIMENSION_ME' | 'AI_PAINTING_ANIME'
     botToken: '5778803513:AAGqTkyF--atxLBdKisq4xx6YXgFUvSiUW8',
     keepFiles: {
         compared: true,
@@ -30,7 +30,7 @@ const config: Config = {
         video: true, // much slower and works only with mode=AI_PAINTING_ANIME
     },
     parallelRequests: 10,
-    proxyUrl: 'socks5://:HIA:HIA@111.199.70.108:1080',
+    proxyUrl: 'socks5://:HIA:HIA@47.92.85.36:1080',
 };
 
 export default config;
