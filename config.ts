@@ -30,7 +30,7 @@ const config: Config = {
         video: true, // much slower and works only with mode=AI_PAINTING_ANIME
     },
     parallelRequests: 10,
-    proxyUrl: 'socks5://HIA:HIA@1.117.107.63:2080',
+    proxyUrl: 'socks5://:Elite:Elite@218.76.101.25:7302',
 };
 
 export default config;
