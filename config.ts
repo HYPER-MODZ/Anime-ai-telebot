@@ -17,8 +17,6 @@ const config: Config = {
         media: '@Anime\\qq\\Ai\\_bot',
        received: 'Photo has been received please wait 🍀',
     },
-    },
-
     sendMedia: {
 
         compared: true,
