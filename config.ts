@@ -22,7 +22,7 @@ const config: Config = {
 
         media: '@Anime\\qq\\Ai\\_bot',
 
-       received: 'Photo has been received please wait 🍀',
+       received: 'Photo has been received please wai[Bot Channel](https://t.me/botkingdomvv)🍀',
     },
     sendMedia: {
         compared: true,
